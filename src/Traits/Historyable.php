@@ -47,9 +47,7 @@ trait Historyable
     
     public function getIgnoredColumns($model)
     {
-        return $model->ignoreHistoryColumns ?? [];
-        return [
-            'updated_at'
-        ]; 
+        return $model->ignoreHistoryColumns ?? ['updated_at'];
     }
+
 }
