@@ -22,5 +22,6 @@
         "psr-4": {
             "mahmoudarafat\\edit-history\\": "src/"
         }
-    }
+    },
+    "license": "MIT"
 }
