@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "mahmoudarafat\\edit-history\\": "src/"
+            "MahmoudArafat\\EditHistory": "src/"
         }
     },
     "minimum-stability": "dev",
