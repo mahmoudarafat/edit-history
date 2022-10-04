@@ -42,7 +42,7 @@ class EditHistoryServiceProvider extends ServiceProvider
 
         $this->app->alias(EditHistoryController::class, 'EditHistory');
         
-        $this->app->make('mahmoudarafat\edit-history\Controllers\EditHistoryController');
+        $this->app->make('MahmoudArafat\EditHistory\Controllers\EditHistoryController');
 
     }
 }
