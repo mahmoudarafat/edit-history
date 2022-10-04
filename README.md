@@ -71,3 +71,24 @@ class User extends Model
 }
 ```
 
+for custom ignored columns to stop track:
+Add this property in model: 
+
+``` php
+<?php
+
+namespace App\Models;
+// import the package
+use MahmoudArafat\EditHistory\Traits\Historyable;
+
+class User extends Model
+{
+    // use the package in model
+    use Historyable;
+
+   // ignore those here
+    public $ignoreHistoryColumns = ['name', 'updated_at'];
+
+}
+```
+
