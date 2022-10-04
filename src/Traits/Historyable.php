@@ -35,8 +35,6 @@ trait Historyable
 
     public function saveChange(ColumnChange $change){
         
-        dump('2422', $change);
-
         $this->history()->create([
             'column_changed' => $change->column,
             'original_value' =>$this->valueToString($change->from),
