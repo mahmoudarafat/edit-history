@@ -72,7 +72,7 @@ class User extends Model
 ```
 
 for custom ignored columns to stop track:
-Add this property in model: 
+Add [ #ignoreHistoryColumns ] property in model: 
 
 ``` php
 <?php
